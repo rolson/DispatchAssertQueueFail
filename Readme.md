@@ -1,4 +1,4 @@
-test project to repro bug https://developer.apple.com/forums/thread/765388
+Test project to repro bug https://developer.apple.com/forums/thread/765388
 
 If MyController is alphabetically sorted before the webview file, then the bug is not reproducible. There are 7 or so blank swift files that need to be in the project to reproduce this issue. Those need to be in a separate folder than MyController and the webview file, or the bug will not be reproduced.
  
